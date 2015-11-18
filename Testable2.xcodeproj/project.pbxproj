@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372C83181BFCD1A000A70B75 /* TextValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89D41BFBA6C10091A781 /* TextValidation.swift */; };
+		372C831B1BFCD5D700A70B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89A61BFBA5C20091A781 /* AppDelegate.swift */; };
+		372C831C1BFCD5DB00A70B75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89A81BFBA5C20091A781 /* ViewController.swift */; };
+		372C831D1BFCD5E100A70B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374D89AA1BFBA5C20091A781 /* Main.storyboard */; };
+		372C831E1BFCD5F400A70B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374D89AD1BFBA5C20091A781 /* Assets.xcassets */; };
 		374D89A71BFBA5C20091A781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89A61BFBA5C20091A781 /* AppDelegate.swift */; };
 		374D89A91BFBA5C20091A781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D89A81BFBA5C20091A781 /* ViewController.swift */; };
 		374D89AC1BFBA5C20091A781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374D89AA1BFBA5C20091A781 /* Main.storyboard */; };
@@ -193,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372C831E1BFCD5F400A70B75 /* Assets.xcassets in Resources */,
+				372C831D1BFCD5E100A70B75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372C831C1BFCD5DB00A70B75 /* ViewController.swift in Sources */,
+				372C831B1BFCD5D700A70B75 /* AppDelegate.swift in Sources */,
+				372C83181BFCD1A000A70B75 /* TextValidation.swift in Sources */,
 				374D89BC1BFBA5C20091A781 /* Testable2Tests.swift in Sources */,
 				374D89D71BFBA7820091A781 /* TextValidationTests.swift in Sources */,
 			);
@@ -316,6 +326,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
