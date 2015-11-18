@@ -1,3 +1,5 @@
 coverage_service: coveralls
 xcodeproj: Testable2.xcodeproj
-
+ignore:
+  - ExamplePodCode/*
+  - ProjectTestsGroup/*

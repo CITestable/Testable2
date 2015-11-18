@@ -7,3 +7,6 @@ xcode_sdk: iphonesimulator #5
 #after_success: bundle exec slather
 #cache: bundler
 #sudo: false
+before_install: rvm use $RVM_RUBY_VERSION
+install: bundle install --without=documentation --path ../travis_bundle_dir
+after_success: slather
