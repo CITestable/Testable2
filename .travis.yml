@@ -2,13 +2,8 @@ language: objective-c
 osx_image: xcode7
 before_install:
  - rvm use $RVM_RUBY_VERSION
- - gem i slather --no-rdoc
 xcode_project: Testable2.xcodeproj #3
 xcode_scheme: Testable2 #4
 xcode_sdk: iphonesimulator #5
-#bundler_args: --without development documentation --deployment --jobs=3 --retry=3
-#after_success: bundle exec slather
-#cache: bundler
-#sudo: false
 install: bundle install --without=documentation --path ../travis_bundle_dir
 after_success: slather
