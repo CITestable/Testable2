@@ -2,8 +2,8 @@ language: objective-c
 osx_image: xcode7
 before_install:
  - rvm use $RVM_RUBY_VERSION
-xcode_project: Testable2.xcodeproj #3
-xcode_scheme: Testable2 #4
-xcode_sdk: iphonesimulator #5
+xcode_project: Testable2.xcodeproj
+xcode_scheme: Testable2
+xcode_sdk: iphonesimulator
 install: bundle install --without=documentation --path ../travis_bundle_dir
-after_success: slather
+after_success: slather coverage --travis --coveralls
