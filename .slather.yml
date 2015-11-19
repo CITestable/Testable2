@@ -1,2 +1,4 @@
+# .slather.yml
 coverage_service: coveralls
-xcodeproj: Testable2.xcodeproj
+xcodeproj: Testable2/Testable2.xcodeproj
+source_directory: Testable2/Testable2/
