@@ -1,6 +1,5 @@
 # .slather.yml
-coverage_service: coveralls
-xcodeproj: Testable2.xcodeproj
-ignore:
-  - ExamplePodCode/*
-  - ProjectTestsGroup/*
+#coverage_service: coveralls
+#xcodeproj: Testable2.xcodeproj
+ci_service: travis_pro
+coverage_access_token: x8XWnqPzLEw1DUaxcWHz 
